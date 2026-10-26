@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024"><defs>
+<filter id="sh" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="26"/></filter>
+<filter id="sh2" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="10"/></filter>
+<filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+<filter id="fine" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.2"/></filter>
+<linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4f5f7"/><stop offset="0.35" stop-color="#b9bcc3"/><stop offset="0.55" stop-color="#e3e5e9"/><stop offset="1" stop-color="#7d8189"/></linearGradient>
+<linearGradient id="steelRim" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#5d6068"/></linearGradient>
+
+  <radialGradient id="oface" cx="0.36" cy="0.3" r="0.85"><stop offset="0" stop-color="#f48549"/><stop offset="0.6" stop-color="#F26A21"/><stop offset="1" stop-color="#a54816"/></radialGradient>
+  <linearGradient id="orim" x1="0" y1="0" x2="0.4" y2="1"><stop offset="0" stop-color="#f7a97e"/><stop offset="0.5" stop-color="#F26A21"/><stop offset="1" stop-color="#853a12"/></linearGradient>
+  <linearGradient id="owell" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0" stop-color="#bd531a"/><stop offset="1" stop-color="#f3732e"/></linearGradient></defs><rect width="1024" height="1024" fill="#FFFFFF"/>
+  
+  <circle cx="648" cy="414" r="250" fill="#737373" opacity="0.45" filter="url(#sh)"/>
+  <circle cx="640" cy="400" r="250" fill="#793511"/>
+  <circle cx="640" cy="384" r="250" fill="url(#orim)"/>
+  <circle cx="640" cy="384" r="215" fill="url(#owell)"/>
+  <circle cx="640" cy="384" r="209" fill="url(#oface)"/>
+  <path d="M 407.5 329 A 238.75 238.75 0 0 1 690 150.25" fill="none" stroke="#fff" stroke-opacity="0.38" stroke-width="10" stroke-linecap="round" filter="url(#fine)"/>
+  
+    <text x="640" y="263" text-anchor="middle" font-size="50" font-family="DejaVu Sans Condensed, DejaVu Sans, sans-serif" font-weight="700" fill="#793511" opacity="0.8" letter-spacing="3">25 KG</text>
+    <text x="640" y="259" text-anchor="middle" font-size="50" font-family="DejaVu Sans Condensed, DejaVu Sans, sans-serif" font-weight="700" fill="#fff" letter-spacing="3">25 KG</text>
+  
+    <text x="640" y="553" text-anchor="middle" font-size="50" font-family="DejaVu Sans Condensed, DejaVu Sans, sans-serif" font-weight="700" fill="#793511" opacity="0.8" letter-spacing="3">25 KG</text>
+    <text x="640" y="549" text-anchor="middle" font-size="50" font-family="DejaVu Sans Condensed, DejaVu Sans, sans-serif" font-weight="700" fill="#fff" letter-spacing="3">25 KG</text>
+  <circle cx="644" cy="394" r="82.5" fill="#6d300f" opacity="0.6" filter="url(#sh2)"/>
+  <circle cx="640" cy="384" r="82.5" fill="url(#steelRim)"/>
+  <circle cx="640" cy="384" r="75.5" fill="url(#steel)"/>
+  <circle cx="696.4028454598141" cy="407.3628235458887" r="6.5" fill="#9a9da5"/><circle cx="694.9028454598141" cy="405.8628235458887" r="4" fill="#eef0f3"/><circle cx="663.3628235458888" cy="440.40284545981405" r="6.5" fill="#9a9da5"/><circle cx="661.8628235458888" cy="438.90284545981405" r="4" fill="#eef0f3"/><circle cx="616.6371764541112" cy="440.40284545981405" r="6.5" fill="#9a9da5"/><circle cx="615.1371764541112" cy="438.90284545981405" r="4" fill="#eef0f3"/><circle cx="583.5971545401859" cy="407.3628235458887" r="6.5" fill="#9a9da5"/><circle cx="582.0971545401859" cy="405.8628235458887" r="4" fill="#eef0f3"/><circle cx="583.5971545401859" cy="360.6371764541113" r="6.5" fill="#9a9da5"/><circle cx="582.0971545401859" cy="359.1371764541113" r="4" fill="#eef0f3"/><circle cx="616.6371764541112" cy="327.59715454018595" r="6.5" fill="#9a9da5"/><circle cx="615.1371764541112" cy="326.09715454018595" r="4" fill="#eef0f3"/><circle cx="663.3628235458888" cy="327.59715454018595" r="6.5" fill="#9a9da5"/><circle cx="661.8628235458888" cy="326.09715454018595" r="4" fill="#eef0f3"/><circle cx="696.402845459814" cy="360.6371764541112" r="6.5" fill="#9a9da5"/><circle cx="694.902845459814" cy="359.1371764541112" r="4" fill="#eef0f3"/>
+  <circle cx="640" cy="384" r="49.5" fill="url(#steelRim)" transform="rotate(180 640 384)"/>
+  <circle cx="640" cy="384" r="37.5" fill="#bfbfbf"/>
+  <circle cx="640" cy="390" r="33.5" fill="#FFFFFF"/></svg>
